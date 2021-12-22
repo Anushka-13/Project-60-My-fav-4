@@ -1,0 +1,86 @@
+img{
+    height:350px;
+        width:300px;
+    border-radius: 50%;
+}
+body{
+    text-align:center;
+  padding-top: 800px;
+}
+.w{
+    background: linear-gradient(red,yellow);
+    width:100%;
+    width:100%;
+    height:100%;
+    position:absolute;
+    color:#FFFFFF;
+    display:table;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+opacity:0.8;
+    height:800px;
+    z-index: 10;
+}
+.menu{
+    
+    list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    top: 10px;
+    right:30px;
+    cursor:pointer;
+    z-index: 12;   
+    color: black;
+}
+.links{
+    float: left;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.links:hover{
+    background-color: aqua;
+    color: blue;
+    text-decoration:underline;
+}
+
+.line{
+    background-color: black;
+    height:8px;
+    width:50px;
+    margin:10px auto;
+}
+.T{
+    display: table-cell;
+    position:relative;
+    text-align: center;
+    vertical-align: middle;
+}
+p{
+    max-width:600px;
+    font-size: 17px;
+    margin:10px auto;
+    line-height: 1.5;
+}
+#name{
+    font-family: 'Merriweather', serif;
+    font-size:15px;
+}
+h2{
+    font-family: 'Merriweather', serif;
+font-family: 'Style Script', cursive;
+    font-size:20px;
+}
+#bio{
+   background: linear-gradient(yellow,green);
+}
+img{ transition: transform 0.2s; 
+} 
+img:hover{ transform: scale(0.9);
+    
